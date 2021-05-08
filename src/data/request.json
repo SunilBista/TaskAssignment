@@ -1,28 +1,36 @@
 {
   "data": [
     {
-      "id": "837cba31-39b1-4039-b956-dc9245842125",
+      "id": "8767c46b-613d-46e1-aaf3-f95ae41093d9",
       "employee_name": "Max Jordan",
-      "status": "rejected",
-      "leave_range": "2021/05/07-2021/05/11",
-      "num_of_days": 5,
+      "status": "Pending",
+      "leave_range": "2021/05/08-2021/05/11",
+      "num_of_days": 4,
       "reason": "Sick leave"
     },
     {
-      "id": "738f9e04-bd4f-4ebd-beaf-242e5881148a",
+      "id": "6076ba21-8ba1-4841-afde-2785619ff138",
       "employee_name": "Max Jordan",
-      "status": "pending",
-      "leave_range": "2021/05/01-2021/05/14",
-      "num_of_days": 14,
-      "reason": "sdasdas"
+      "status": "Pending",
+      "leave_range": "2021/05/07-2021/05/14",
+      "num_of_days": 8,
+      "reason": "Wedding Ceremony"
     },
     {
-      "id": "8767c46b-613d-46e1-aaf3-f95ae41093d9",
-      "employee_name": "Max Jordan",
-      "status": "pending",
-      "leave_range": "2021/05/08-2021/05/11",
-      "num_of_days": 4,
-      "reason": "sicka"
+      "id": "416c5dd1-02e3-4e51-ad8b-5ea96b016d5b",
+      "employee_name": "Billie Curtis",
+      "status": "Pending",
+      "leave_range": "2021/05/01-2021/05/14",
+      "num_of_days": 14,
+      "reason": "Sick Leave"
+    },
+    {
+      "id": "0fc40732-650e-48ad-9788-e87a68a243a6",
+      "employee_name": "Billie Curtis",
+      "status": "Pending",
+      "leave_range": "2021/05/01-2021/05/20",
+      "num_of_days": 20,
+      "reason": "Casual leave"
     }
   ]
 }
