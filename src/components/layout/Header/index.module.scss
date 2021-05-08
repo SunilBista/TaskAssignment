@@ -1,0 +1,53 @@
+.root{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+    background-color: #343a40;
+    color: white;
+    .header{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 24px;
+        font-weight: bold;
+
+    }
+    .name{
+        margin-right: 20px;
+    .dropDown{
+        max-width: 150px !important;
+        >button{
+            max-width: 150px !important;
+        }
+    }
+}
+    .btn{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        border: none;
+        outline: none;
+        user-select: none;
+        vertical-align: top;
+        height: 35px;
+        min-width: 80px;
+        border-radius: 20px;
+        font-size: 14px;
+        font-weight: bold;
+        padding: 0 20px 0 15px;
+        background-color: black;
+        color: white;
+        position: relative;
+        &:hover{
+            background-color: rgb(49, 46, 46);
+        }
+        &:disabled{
+            pointer-events: none;
+            cursor: not-allowed;
+        }
+}
+}
