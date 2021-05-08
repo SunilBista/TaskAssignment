@@ -28,13 +28,13 @@ export default function MemberView() {
   useEffect(() => {
     axios.get("http://localhost:8080/data")
       .then((res) => {
-        const currentUserData = res.data.filter(item => item.employee_name === user.name);
+        const currentUserData = res.data.filter(item => item.user_id === user.id);
         setRequest(currentUserData);
       });
   }, [user]);
 
   const handleMakeRequest = () => {
-    const { name } = user;
+    const { name, id } = user;
     let [{ startDate, endDate }] = date;
     startDate = format(startDate, "yyyy/MM/dd");
     endDate = format(endDate, "yyyy/MM/dd");
@@ -46,6 +46,7 @@ export default function MemberView() {
       leave_range: startDate + "-" + endDate,
       num_of_days: numOfDay,
       reason: reason,
+      user_id: id
     };
 
     axios.post("http://localhost:8080/data", userData)
