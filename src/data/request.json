@@ -1,0 +1,28 @@
+{
+  "data": [
+    {
+      "id": "837cba31-39b1-4039-b956-dc9245842125",
+      "employee_name": "Max Jordan",
+      "status": "rejected",
+      "leave_range": "2021/05/07-2021/05/11",
+      "num_of_days": 5,
+      "reason": "Sick leave"
+    },
+    {
+      "id": "738f9e04-bd4f-4ebd-beaf-242e5881148a",
+      "employee_name": "Max Jordan",
+      "status": "pending",
+      "leave_range": "2021/05/01-2021/05/14",
+      "num_of_days": 14,
+      "reason": "sdasdas"
+    },
+    {
+      "id": "8767c46b-613d-46e1-aaf3-f95ae41093d9",
+      "employee_name": "Max Jordan",
+      "status": "pending",
+      "leave_range": "2021/05/08-2021/05/11",
+      "num_of_days": 4,
+      "reason": "sicka"
+    }
+  ]
+}
